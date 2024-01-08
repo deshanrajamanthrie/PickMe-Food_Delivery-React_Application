@@ -1,0 +1,11 @@
+body{
+    overflow-x: hidden;
+}
+
+.img-home{
+    background-image: url("src/assets/main-top.PNG");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: 100% 100%;
+
+}
