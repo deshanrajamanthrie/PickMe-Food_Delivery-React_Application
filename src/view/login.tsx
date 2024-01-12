@@ -10,7 +10,7 @@ const LoginForm = () => {
         <Fragment>
             <section className={'flex justify-center h-screen py-1 items-center w-screen flex-col'}>
                 <section
-                    className={'flex justify-center items-center flex-col border border-amber-300 w-auto h-auto p-10 rounded'}>
+                    className={'flex justify-center items-center flex-col border border-amber-300 w-auto h-auto p-10 rounded shadow-lg'}>
                     <h1 className={'text-center font-bold text-3xl text-neutral-800'}>Login</h1>
                     <label className="block">
                         <Input type={'email'} label={'Email'} name={'email'}
@@ -21,10 +21,8 @@ const LoginForm = () => {
                                placeHolder={'Enter Your Password'}
                         ></Input> {/*Text Field Component*/}
                     </label>
-
-                    <Button color={'bg-orange-500'} size={'w-[150px]'}
-                            callBack={
-                                () => alert("Login")
+                    <Button color={'bg-orange-500'} size={'w-[150px]'}    /*Use Button Component*/
+                            callBack={() => alert("Login")
                             } optional={'m-5 p-2 mt-5'}>Login
                         Here</Button>
                     <div className={'font-mono  text-center mt-5'}>
@@ -36,8 +34,6 @@ const LoginForm = () => {
             </section>
         </Fragment>
     )
-
-
 }
 
 export default LoginForm;
