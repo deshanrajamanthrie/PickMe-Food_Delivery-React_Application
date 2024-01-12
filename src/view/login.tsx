@@ -1,6 +1,7 @@
-import React, {Fragment} from "react";
+import {Fragment} from "react";
 import {Link} from "react-router-dom";
 import Input from "../components/input/input.tsx";
+import Button from "../components/input/Button.tsx";
 
 
 const LoginForm = () => {
@@ -12,15 +13,20 @@ const LoginForm = () => {
                     className={'flex justify-center items-center flex-col border border-amber-300 w-auto h-auto p-10 rounded'}>
                     <h1 className={'text-center font-bold text-3xl text-neutral-800'}>Login</h1>
                     <label className="block">
-                        <Input type={'email'} label={'Email'} name={'email'} placeHolder={'you@example.com'}></Input>
+                        <Input type={'email'} label={'Email'} name={'email'}
+                               placeHolder={'you@example.com'}></Input> {/*Text Field Component*/}
                     </label>
                     <label className="mt-5 block">
                         <Input type={'password'} label={'Password'} name={'Password'}
-                               placeHolder={'Enter Your Password'}></Input>
+                               placeHolder={'Enter Your Password'}
+                        ></Input> {/*Text Field Component*/}
                     </label>
-                    <button className={'m-5 rounded border w-[150px] bg-orange-500 p-2 text-white bottom-2.5'}>Login
-                        Here
-                    </button>
+
+                    <Button color={'bg-orange-500'} size={'w-[150px]'}
+                            callBack={
+                                () => alert("Login")
+                            } optional={'m-5 p-2 mt-5'}>Login
+                        Here</Button>
                     <div className={'font-mono  text-center mt-5'}>
                         Do not Have an Account <span
                         className={'underline cursor-pointer text-blue-700'}><Link
