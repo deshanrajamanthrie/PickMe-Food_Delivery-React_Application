@@ -5,6 +5,7 @@ import './App.css'
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Header from "./components/layout/header.tsx";
 import Login from "./view/login.tsx";
+import SignUp from "./view/SignUp.tsx";
 
 class App extends React.Component<any, any> {
 
@@ -19,6 +20,7 @@ class App extends React.Component<any, any> {
                         <Route path={'/'} element={<Home/>}/>
                         <Route path={'/about'} element={<About/>}/>
                         <Route path={'/login'} element={<Login/>}></Route>
+                        <Route path={'/signUp'} element={<SignUp/>}></Route>
                     </Routes>
                 </BrowserRouter>
             </div>
