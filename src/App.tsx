@@ -7,6 +7,7 @@ import Header from "./components/layout/header.tsx";
 import Login from "./view/login.tsx";
 import SignUp from "./view/SignUp.tsx";
 import MealShop from "./view/MealShop.tsx";
+import Order from "./view/Order.tsx";
 
 class App extends React.Component<any, any> {
 
@@ -23,6 +24,7 @@ class App extends React.Component<any, any> {
                         <Route path={'/login'} element={<Login/>}></Route>
                         <Route path={'/signUp'} element={<SignUp/>}></Route>
                         <Route path={'/mealShop'} element={<MealShop/>}></Route>
+                        <Route path={'/order'} element={<Order/>}></Route>
                     </Routes>
                 </BrowserRouter>
             </div>

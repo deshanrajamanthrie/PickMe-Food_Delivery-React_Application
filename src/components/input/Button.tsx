@@ -2,7 +2,7 @@ import {Fragment} from "react";
 
 
 interface Props {
-    children: string,
+    children?: JSX.Element | JSX.Element[] | string,
     color?: string,
     size?: string,
     optional?: string

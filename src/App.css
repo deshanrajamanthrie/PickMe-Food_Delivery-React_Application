@@ -1,11 +1,24 @@
-body{
+body {
     overflow-x: hidden;
 }
 
-.img-home{
+.img-home {
     background-image: url("src/assets/main-top.PNG");
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     background-size: 100% 100%;
 
+}
+
+.img-home-food {
+    background-image: url("src/assets/MarketPlace.PNG");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: 100% 100%;
+}
+.img-order{
+    background-image: url("src/assets/reactorderSystem.PNG");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: 100% 100%;
 }

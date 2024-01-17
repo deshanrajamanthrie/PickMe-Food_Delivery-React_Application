@@ -1,4 +1,4 @@
-import {Fragment} from "react";
+import  {Fragment} from "react";
 import {Link} from "react-router-dom";
 import Input from "../components/input/input.tsx";
 import Button from "../components/input/Button.tsx";
@@ -22,9 +22,7 @@ const LoginForm = () => {
                         ></Input> {/*Text Field Component*/}
                     </label>
                     <Button color={'bg-orange-500'} size={'w-[150px]'}    /*Use Button Component*/
-                            callBack={() => alert("Login")
-                            } optional={'m-5 p-2 mt-5'}>Login
-                        Here</Button>
+                            callBack={() =>alert("Hello Login")} optional={'m-5 p-2 mt-5'}><Link to={'/order'}>Login</Link></Button>
                     <div className={'font-mono  text-center mt-5'}>
                         Do not Have an Account <span
                         className={'underline cursor-pointer text-blue-700'}><Link
