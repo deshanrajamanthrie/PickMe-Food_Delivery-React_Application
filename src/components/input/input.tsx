@@ -4,7 +4,7 @@ interface Props {
     type: string
     name?: string
     placeHolder ?: string
-    label: string
+    label?: string
 }
 
 

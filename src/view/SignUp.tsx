@@ -6,23 +6,23 @@ const SignUp = () => {
     return (
         <>
             <section className={'flex justify-center h-screen py-1 items-center w-screen flex-col'}>
-                <section className={'flex justify-center items-center flex-col border border-amber-300 w-auto h-auto p-10 rounded shadow-lg'}>
+                <section className={'flex justify-center items-center flex-col border border-amber-300 w-auto p-10 h-full rounded shadow-lg'}>
                     <h1 className={'text-center font-bold text-3xl text-neutral-800'}>Sign Up</h1>
 
-                    <label className={"block mt-5"}>
+                    <label className={"block mt-2"}>
                         <Input label={'Full Name :'} name={'fullName'} placeHolder={'A.K.Daniel'} type={'text'}></Input>
                     </label>
 
-                    <label className={"block mt-5"}>
+                    <label className={"block mt-2"}>
                         <Input label={'Nic No'} name={'name'} type={'text'} placeHolder={'20010840...'}></Input>
                     </label>
 
-                    <label className={"block mt-5"}>
+                    <label className={"block mt-2"}>
                         <Input label={'Email'} name={'email'} type={'email'}
                                placeHolder={'you@example.com'}></Input>
                     </label>
 
-                    <label className={"block mt-5"}>
+                    <label className={"block mt-2"}>
                         <Input label={'Password'} name={'password'} type={'password'}
                                placeHolder={'Write Your New Password'}></Input>
                     </label>

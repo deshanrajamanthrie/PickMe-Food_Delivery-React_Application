@@ -18,8 +18,7 @@ const LoginForm = () => {
                     </label>
                     <label className="mt-5 block">
                         <Input type={'password'} label={'Password'} name={'Password'}
-                               placeHolder={'Enter Your Password'}
-                        ></Input> {/*Text Field Component*/}
+                               placeHolder={'Enter Your Password'}></Input> {/*Text Field Component*/}
                     </label>
                     <Button color={'bg-orange-500'} size={'w-[150px]'}    /*Use Button Component*/
                             callBack={() =>alert("Hello Login")} optional={'m-5 p-2 mt-5'}><Link to={'/order'}>Login</Link></Button>
