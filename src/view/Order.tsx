@@ -7,7 +7,7 @@ import Input from "../components/input/input.tsx";
 const Order = () => {
     return (
         <Fragment>
-            <section className={'flex justify-start h-[200vh] py-1 items-start w-screen flex-col'}>
+            <section className={'flex justify-start h-[220vh] py-1 items-start w-screen flex-col'}>
                 <TopImage height={'h-2/6'} backgroundImage={'img-order'}>Place Your Order</TopImage>
 
                 {/*===============================*/}
@@ -47,11 +47,44 @@ const Order = () => {
                     </section>
                     {/*Load Shops*/}
                     <section
-                        className={'h-3/6 w-[90vw] order-border border-amber-950 gap-y-4 gap-x-7 grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 relative m-auto'}>
-
-
+                        className={'mt-12 h-5/6 w-[90vw] order-border border-amber-950 gap-y-4 gap-x-14 grid 2xl:grid-cols-5 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 relative m-auto'}>
+                        <div className={'w-96 p-2 border-solid border-2 flex flex-col bg-slate-800 rounded-md'}>
+                            <img className={'w-auto rounded'} src="src/assets/KFC.PNG" alt="kfc"/>
+                            <button
+                                className={'mt-2 rounded-md w-20 p-2 text-white bg-neutral-950 shadow-zinc-800  border-2 border-amber-50'}>Go
+                            </button>
+                        </div>
+                        <div className={'w-96 p-2 border-solid border-2 flex flex-col bg-slate-800 rounded-md'}>
+                            <img className={'w-auto rounded'} src="src/assets/KFC.PNG" alt="kfc"/>
+                            <button
+                                className={'mt-2 rounded-md w-20 p-2 text-white bg-neutral-950 shadow-zinc-800  border-2 border-amber-50'}>Go
+                            </button>
+                        </div>
+                        <div className={'w-96 p-2 border-solid border-2 flex flex-col bg-slate-800 rounded-md'}>
+                            <img className={'w-auto rounded'} src="src/assets/KFC.PNG" alt="kfc"/>
+                            <button
+                                className={'mt-2 rounded-md w-20 p-2 text-white bg-neutral-950 shadow-zinc-800  border-2 border-amber-50'}>Go
+                            </button>
+                        </div>
+                        <div className={'w-96 p-2 border-solid border-2 flex flex-col bg-slate-800 rounded-md'}>
+                            <img className={'w-auto rounded'} src="src/assets/KFC.PNG" alt="kfc"/>
+                            <button
+                                className={'mt-2 rounded-md w-20 p-2 text-white bg-neutral-950 shadow-zinc-800  border-2 border-amber-50'}>Go
+                            </button>
+                        </div>
+                        <div className={'w-96 p-2 border-solid border-2 flex flex-col bg-slate-800 rounded-md'}>
+                            <img className={'w-auto rounded'} src="src/assets/KFC.PNG" alt="kfc"/>
+                            <button
+                                className={'mt-2 rounded-md w-20 p-2 text-white bg-neutral-950 shadow-zinc-800  border-2 border-amber-50'}>Go
+                            </button>
+                        </div>
+                        <div className={'w-96 p-2 border-solid border-2 flex flex-col bg-slate-800 rounded-md'}>
+                            <img className={'w-auto rounded'} src="src/assets/KFC.PNG" alt="kfc"/>
+                            <button
+                                className={'mt-2 rounded-md w-20 p-2 text-white bg-neutral-950 shadow-zinc-800  border-2 border-amber-50'}>Go
+                            </button>
+                        </div>
                     </section>
-
                 </section>
             </section>
 
